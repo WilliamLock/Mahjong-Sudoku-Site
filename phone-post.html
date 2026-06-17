@@ -1,0 +1,230 @@
+<!doctype html>
+<html lang="zh-Hans">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>麻将数独手机发布助手</title>
+  <meta name="description" content="手机发布 Mahjong Sudoku Classic / 麻将数独时使用的标题、正文、标签和配图。">
+  <link rel="canonical" href="https://williamlock.github.io/Mahjong-Sudoku-Site/phone-post.html">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="麻将数独手机发布助手">
+  <meta property="og:description" content="标题、正文、标签和配图，方便手机发布。">
+  <meta property="og:image" content="https://williamlock.github.io/Mahjong-Sudoku-Site/assets/mahjong-sudoku-rednote-card.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="麻将数独手机发布助手">
+  <meta name="twitter:description" content="标题、正文、标签和配图，方便手机发布。">
+  <meta name="twitter:image" content="https://williamlock.github.io/Mahjong-Sudoku-Site/assets/mahjong-sudoku-rednote-card.png">
+  <style>
+    :root {
+      --ink: #202824;
+      --muted: #5f6b64;
+      --jade: #0f8b63;
+      --paper: #f8f6ec;
+      --mist: #eaf6ef;
+      --line: #d8dfd4;
+    }
+
+    * { box-sizing: border-box; }
+
+    body {
+      margin: 0;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      color: var(--ink);
+      background: linear-gradient(135deg, var(--mist), var(--paper));
+    }
+
+    main {
+      width: min(760px, calc(100% - 28px));
+      margin: 0 auto;
+      padding: 34px 0;
+    }
+
+    h1 {
+      margin: 0 0 10px;
+      font-size: clamp(2rem, 8vw, 3.2rem);
+      line-height: 1;
+      letter-spacing: 0;
+    }
+
+    h2 {
+      margin: 28px 0 10px;
+      letter-spacing: 0;
+    }
+
+    p {
+      color: var(--muted);
+      font-size: 1.04rem;
+      line-height: 1.65;
+      margin: 0 0 12px;
+    }
+
+    a {
+      color: var(--jade);
+      font-weight: 700;
+      text-decoration: none;
+    }
+
+    img {
+      display: block;
+      width: 100%;
+      max-width: 380px;
+      height: auto;
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      box-shadow: 0 12px 28px rgba(54, 68, 56, 0.14);
+    }
+
+    .section {
+      margin-top: 18px;
+      padding: 16px;
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      background: rgba(255, 255, 255, 0.74);
+    }
+
+    .copy-row {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 12px;
+      margin-bottom: 10px;
+    }
+
+    .copy-row h2 {
+      margin: 0;
+    }
+
+    button,
+    .button {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      min-height: 40px;
+      padding: 0 14px;
+      border: 0;
+      border-radius: 999px;
+      background: var(--jade);
+      color: white;
+      font: inherit;
+      font-weight: 700;
+      box-shadow: 0 8px 18px rgba(15, 139, 99, 0.2);
+    }
+
+    .secondary {
+      background: rgba(255, 255, 255, 0.7);
+      color: var(--ink);
+      border: 1px solid var(--line);
+      box-shadow: none;
+    }
+
+    textarea {
+      width: 100%;
+      min-height: 92px;
+      padding: 12px;
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      background: #fff;
+      color: var(--ink);
+      font: inherit;
+      line-height: 1.55;
+      resize: vertical;
+    }
+
+    .body-text {
+      min-height: 430px;
+    }
+
+    .actions {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      margin: 18px 0;
+    }
+
+    .status {
+      min-height: 22px;
+      color: var(--jade);
+      font-size: 0.95rem;
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <h1>手机发布助手</h1>
+    <p>按顺序保存图片、复制标题、复制正文、复制标签，然后到小红书 / Rednote App 发布图文笔记。</p>
+
+    <div class="actions">
+      <a class="button" href="assets/mahjong-sudoku-rednote-card.png">打开配图</a>
+      <a class="button secondary" href="rednote.html">完整发布页</a>
+      <a class="button secondary" href="index.html">产品页</a>
+    </div>
+
+    <section class="section">
+      <h2>1. 保存配图</h2>
+      <p>手机打开图片后长按保存到相册。</p>
+      <img src="assets/mahjong-sudoku-rednote-card.png" alt="麻将数独小红书竖版配图">
+    </section>
+
+    <section class="section">
+      <div class="copy-row">
+        <h2>2. 标题</h2>
+        <button data-copy-target="titleText">复制标题</button>
+      </div>
+      <textarea id="titleText" readonly>我是数独迷，所以做了一个麻将数独</textarea>
+    </section>
+
+    <section class="section">
+      <div class="copy-row">
+        <h2>3. 正文</h2>
+        <button data-copy-target="bodyText">复制正文</button>
+      </div>
+      <textarea id="bodyText" class="body-text" readonly>我本身很喜欢玩数独。数独最吸引我的地方，是它看起来很简单：1 到 9，每一行、每一列、每个 3x3 区域都不能重复。
+
+但玩久了之后也会发现，有些单解的数独题到后面会变得很难，全部都是 1-9 的数字，有时候看起来也会有点抽象。
+
+后来我想到一个问题：如果用中国麻将牌来代表这些数字，会不会让数独变得更有趣，也更有挑战？
+
+所以我做了 Mahjong Sudoku Classic / 麻将数独。
+
+它的规则还是数独：每一行、每一列、每个 3x3 区域都要放入 1 到 9 的不同元素。但视觉上可以用筒、索、萬这些麻将牌面来解题。
+
+我觉得这个 idea 很有意思，因为它把喜欢麻将的人，和喜欢数独这种动脑游戏的人连接在一起。
+
+如果你平时喜欢数独、麻将、或者安静一点的益智游戏，可以试试看，也欢迎告诉我：麻将牌面是让数独更好玩，还是更难？
+
+App Store 搜索：Mahjong Sudoku Classic
+
+认准图标：浅色数独棋盘，中间有一张麻将牌，上面有彩色圆点。
+
+开发者：William Lock</textarea>
+    </section>
+
+    <section class="section">
+      <div class="copy-row">
+        <h2>4. 标签</h2>
+        <button data-copy-target="tagsText">复制标签</button>
+      </div>
+      <textarea id="tagsText" readonly>#数独 #麻将 #益智游戏 #独立开发 #iOS游戏 #PuzzleGame #休闲游戏 #麻将数独</textarea>
+    </section>
+
+    <p class="status" id="status" role="status"></p>
+  </main>
+
+  <script>
+    document.querySelectorAll('button[data-copy-target]').forEach((button) => {
+      button.addEventListener('click', async () => {
+        const target = document.getElementById(button.dataset.copyTarget);
+        target.focus();
+        target.select();
+        try {
+          await navigator.clipboard.writeText(target.value);
+          document.getElementById('status').textContent = '已复制：' + button.textContent.replace('复制', '');
+        } catch (error) {
+          document.execCommand('copy');
+          document.getElementById('status').textContent = '已选中文字，可以手动复制。';
+        }
+      });
+    });
+  </script>
+</body>
+</html>

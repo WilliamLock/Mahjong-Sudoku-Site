@@ -27,6 +27,9 @@ https://williamlock.github.io/Mahjong-Sudoku-Site/product-hunt-draft.md
 Rednote post:
 https://williamlock.github.io/Mahjong-Sudoku-Site/rednote.html
 
+Phone posting helper:
+https://williamlock.github.io/Mahjong-Sudoku-Site/phone-post.html
+
 ## Main Angle
 
 Lead with the real story:
