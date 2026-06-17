@@ -21,6 +21,9 @@ https://williamlock.github.io/Mahjong-Sudoku-Site/story.html
 Share kit:
 https://williamlock.github.io/Mahjong-Sudoku-Site/share-kit.html
 
+Product Hunt draft:
+https://williamlock.github.io/Mahjong-Sudoku-Site/product-hunt-draft.md
+
 Rednote post:
 https://williamlock.github.io/Mahjong-Sudoku-Site/rednote.html
 
@@ -55,6 +58,9 @@ Search clue:
 App Store 搜索 Mahjong Sudoku Classic。认准浅色数独棋盘图标，中间有一张麻将牌，上面有彩色圆点。开发者是 William Lock。
 
 ## Product Hunt
+
+Use:
+https://williamlock.github.io/Mahjong-Sudoku-Site/product-hunt-draft.md
 
 Frame it as a simple puzzle experiment:
 

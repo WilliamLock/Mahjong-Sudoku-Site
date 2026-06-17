@@ -12,6 +12,9 @@ https://williamlock.github.io/Mahjong-Sudoku-Site/story.html
 Share kit:
 https://williamlock.github.io/Mahjong-Sudoku-Site/share-kit.html
 
+Product Hunt draft:
+https://williamlock.github.io/Mahjong-Sudoku-Site/product-hunt-draft.md
+
 Promotion runbook:
 https://williamlock.github.io/Mahjong-Sudoku-Site/promotion-runbook.md
 
