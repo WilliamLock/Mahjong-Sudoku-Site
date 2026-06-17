@@ -100,6 +100,41 @@
       color: white;
       box-shadow: 0 8px 18px rgba(15, 139, 99, 0.2);
     }
+
+    .asset-grid {
+      display: grid;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      gap: 14px;
+      margin-top: 16px;
+    }
+
+    .asset-grid a {
+      display: block;
+      color: var(--ink);
+      font-weight: 700;
+    }
+
+    .asset-grid img {
+      display: block;
+      width: 100%;
+      height: 160px;
+      object-fit: cover;
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      background: rgba(255, 255, 255, 0.7);
+      box-shadow: 0 10px 24px rgba(54, 68, 56, 0.12);
+    }
+
+    .asset-grid span {
+      display: block;
+      margin-top: 8px;
+    }
+
+    @media (max-width: 680px) {
+      .asset-grid {
+        grid-template-columns: 1fr;
+      }
+    }
   </style>
 </head>
 <body>
@@ -115,6 +150,7 @@
       <a href="https://williamlock.github.io/Mahjong-Sudoku-Site/rednote.html">Rednote Chinese post</a>
       <a href="https://williamlock.github.io/Mahjong-Sudoku-Site/">Product home</a>
       <a href="https://williamlock.github.io/Mahjong-Sudoku-Site/launch-copy.md">Launch copy</a>
+      <a href="https://williamlock.github.io/Mahjong-Sudoku-Site/promotion-runbook.md">Promotion runbook</a>
     </div>
 
     <h2>Short English post</h2>
@@ -128,6 +164,22 @@
     <h2>Feedback prompt</h2>
     <div class="copy-box">
       <p>I would love feedback from puzzle players: do Mahjong-style symbols make Sudoku more interesting, or do numbers still feel easier to solve?</p>
+    </div>
+
+    <h2>Share images</h2>
+    <div class="asset-grid">
+      <a href="assets/mahjong-sudoku-social.png">
+        <img src="assets/mahjong-sudoku-social.png" alt="Mahjong Sudoku social preview image">
+        <span>Social preview</span>
+      </a>
+      <a href="assets/mahjong-sudoku-share-square.png">
+        <img src="assets/mahjong-sudoku-share-square.png" alt="Mahjong Sudoku square share image">
+        <span>Square share image</span>
+      </a>
+      <a href="assets/mahjong-sudoku-rednote-card.png">
+        <img src="assets/mahjong-sudoku-rednote-card.png" alt="Mahjong Sudoku Rednote vertical image">
+        <span>Rednote vertical image</span>
+      </a>
     </div>
 
     <p><a class="button" href="index.html">Back to Product Home</a></p>

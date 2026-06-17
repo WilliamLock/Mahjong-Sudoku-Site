@@ -12,11 +12,18 @@ https://williamlock.github.io/Mahjong-Sudoku-Site/story.html
 Share kit:
 https://williamlock.github.io/Mahjong-Sudoku-Site/share-kit.html
 
+Promotion runbook:
+https://williamlock.github.io/Mahjong-Sudoku-Site/promotion-runbook.md
+
 Rednote post:
 https://williamlock.github.io/Mahjong-Sudoku-Site/rednote.html
 
 Rednote image:
 https://williamlock.github.io/Mahjong-Sudoku-Site/assets/mahjong-sudoku-rednote-card.png
+
+Share images:
+- Social preview: https://williamlock.github.io/Mahjong-Sudoku-Site/assets/mahjong-sudoku-social.png
+- Square: https://williamlock.github.io/Mahjong-Sudoku-Site/assets/mahjong-sudoku-share-square.png
 
 ## Positioning
 
