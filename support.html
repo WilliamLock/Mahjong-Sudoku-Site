@@ -4,35 +4,154 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Support - Mahjong Sudoku 麻将数独</title>
+  <meta name="description" content="Product introduction, support policy, and privacy link for Mahjong Sudoku.">
   <style>
+    :root {
+      --ink: #202824;
+      --muted: #5f6b64;
+      --jade: #0f8b63;
+      --paper: #f8f6ec;
+      --mist: #eaf6ef;
+      --line: #d8dfd4;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
     body {
       margin: 0;
       font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
-      background: #f6f8f1;
-      color: #1f2a24;
-      line-height: 1.55;
+      color: var(--ink);
+      background: linear-gradient(135deg, var(--mist), var(--paper));
     }
+
     main {
-      max-width: 760px;
+      width: min(860px, calc(100% - 32px));
       margin: 0 auto;
-      padding: 56px 24px;
+      padding: 48px 0;
+      display: grid;
+      gap: 26px;
     }
+
+    header {
+      display: grid;
+      gap: 16px;
+    }
+
     h1 {
-      font-size: clamp(2rem, 6vw, 3.5rem);
-      line-height: 1.05;
-      margin: 0 0 16px;
+      margin: 0;
+      font-size: clamp(2.2rem, 7vw, 4.8rem);
+      line-height: 0.98;
+      letter-spacing: 0;
     }
+
+    .han {
+      display: block;
+      margin-top: 8px;
+      font-family: "Kaiti SC", "STKaiti", "KaiTi", serif;
+      font-weight: 500;
+    }
+
+    h2 {
+      margin: 0 0 10px;
+      letter-spacing: 0;
+    }
+
+    p, li {
+      color: var(--muted);
+      font-size: 1.06rem;
+      line-height: 1.65;
+    }
+
+    p {
+      margin: 0;
+    }
+
+    section {
+      padding-top: 22px;
+      border-top: 1px solid var(--line);
+    }
+
+    ul {
+      margin: 0;
+      padding-left: 20px;
+    }
+
     a {
-      color: #0b6f48;
+      color: var(--jade);
       font-weight: 700;
+      text-decoration: none;
+    }
+
+    .tiles {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      margin-top: 4px;
+    }
+
+    .tile {
+      width: 72px;
+      height: 96px;
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      background: rgba(255, 252, 242, 0.86);
+      box-shadow: 0 8px 18px rgba(54, 68, 56, 0.12);
+      display: grid;
+      place-items: center;
+      font-family: "Kaiti SC", "STKaiti", "KaiTi", serif;
+      font-size: 2.5rem;
+      color: var(--jade);
+    }
+
+    .links {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 14px;
     }
   </style>
 </head>
 <body>
   <main>
-    <h1>Support</h1>
-    <p>For support with Mahjong Sudoku 麻将数独, please open an issue on the project site or contact the developer through the App Store listing.</p>
-    <p><a href="privacy.html">Privacy Policy</a></p>
+    <header>
+      <h1>Mahjong Sudoku <span class="han">麻将数独</span></h1>
+      <p>
+        Mahjong Sudoku blends classic Sudoku logic with Mahjong-inspired tile suits.
+        Choose 筒, 索, or 萬, then solve each row, column, and 3x3 area using one of each tile from 1 to 9.
+      </p>
+      <div class="tiles" aria-label="Mahjong tile suits">
+        <div class="tile">筒</div>
+        <div class="tile">索</div>
+        <div class="tile">萬</div>
+      </div>
+    </header>
+
+    <section>
+      <h2>Support Policy</h2>
+      <p>
+        Support is provided by the developer for app issues, gameplay questions, privacy questions,
+        and App Store download or purchase concerns related to Mahjong Sudoku.
+      </p>
+      <ul>
+        <li>Email support: <a href="mailto:wlock88@icloud.com">wlock88@icloud.com</a></li>
+        <li>Please include your device model, iOS/iPadOS/macOS version, app version, and a short description of the issue.</li>
+        <li>No sign-in is required to use the app, and gameplay is local to your device.</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Privacy</h2>
+      <p>
+        The paid editions are ad-free. The free iPhone and iPad edition may show ads through Google AdMob.
+        Read the full <a href="privacy.html">Privacy Policy</a>.
+      </p>
+    </section>
+
+    <p class="links">
+      <a href="index.html">Product home</a>
+      <a href="privacy.html">Privacy Policy</a>
+    </p>
   </main>
 </body>
 </html>
