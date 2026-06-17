@@ -40,6 +40,12 @@ The rules are still classic Sudoku: every row, column, and 3x3 area needs one of
 Free Classic Edition:
 https://apps.apple.com/us/app/mahjong-sudoku-classic-%E9%BA%BB%E5%B0%86%E6%95%B0%E7%8B%AC/id6775403580
 
+Icon clue:
+Look for the light Sudoku board icon with a Mahjong tile and colored dots.
+
+Developer:
+William Lock
+
 I would love feedback from puzzle players: do Mahjong-style symbols make Sudoku more interesting, or do numbers still feel easier to solve?
 
 ## Reddit / Developer Forum Post
@@ -57,6 +63,12 @@ https://williamlock.github.io/Mahjong-Sudoku-Site/story.html
 
 Free Classic Edition:
 https://apps.apple.com/us/app/mahjong-sudoku-classic-%E9%BA%BB%E5%B0%86%E6%95%B0%E7%8B%AC/id6775403580
+
+Icon clue:
+Look for the light Sudoku board icon with a Mahjong tile and colored dots.
+
+Developer:
+William Lock
 
 Feedback from puzzle players would be helpful: do Mahjong symbols make Sudoku more interesting, or do numbers remain easier to solve?
 
@@ -85,6 +97,10 @@ I am experimenting with a puzzle idea from my own Sudoku habit: classic single-s
 如果你平时喜欢数独、麻将、或者安静一点的益智游戏，可以试试看，也欢迎告诉我：麻将牌面是让数独更好玩，还是更难？
 
 App Store 搜索：Mahjong Sudoku Classic
+
+认准图标：浅色数独棋盘，中间有一张麻将牌，上面有彩色圆点。
+
+开发者：William Lock
 
 标签：
 #数独 #麻将 #益智游戏 #独立开发 #iOS游戏 #PuzzleGame #休闲游戏 #麻将数独

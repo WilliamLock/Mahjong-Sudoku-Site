@@ -6,6 +6,12 @@ Mahjong Sudoku Classic / 麻将数独
 Free Classic Edition:
 https://apps.apple.com/us/app/mahjong-sudoku-classic-%E9%BA%BB%E5%B0%86%E6%95%B0%E7%8B%AC/id6775403580
 
+Search identification:
+Look for the light Sudoku board icon with a Mahjong tile and colored dots.
+
+Developer:
+William Lock
+
 Product home:
 https://williamlock.github.io/Mahjong-Sudoku-Site/
 
@@ -44,6 +50,9 @@ Title:
 
 Ask for feedback:
 麻将牌面是让数独更好玩，还是更难？
+
+Search clue:
+App Store 搜索 Mahjong Sudoku Classic。认准浅色数独棋盘图标，中间有一张麻将牌，上面有彩色圆点。开发者是 William Lock。
 
 ## Product Hunt
 
