@@ -21,8 +21,8 @@ https://williamlock.github.io/Mahjong-Sudoku-Site/promotion-runbook.md
 Rednote post:
 https://williamlock.github.io/Mahjong-Sudoku-Site/rednote.html
 
-Phone posting helper:
-https://williamlock.github.io/Mahjong-Sudoku-Site/phone-post.html
+Mobile posting helper:
+https://williamlock.github.io/Mahjong-Sudoku-Site/mobile-post.html
 
 Rednote image:
 https://williamlock.github.io/Mahjong-Sudoku-Site/assets/mahjong-sudoku-rednote-card.png
