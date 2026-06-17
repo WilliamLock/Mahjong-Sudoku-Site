@@ -7,12 +7,14 @@
   <meta name="description" content="Mahjong Sudoku blends classic Sudoku logic with Chinese Mahjong tile suits.">
   <meta property="og:type" content="website">
   <meta property="og:title" content="Mahjong Sudoku Classic 麻将数独">
-  <meta property="og:description" content="A calm Sudoku puzzle game that replaces numbers with Mahjong-inspired tile suits.">
-  <meta property="og:image" content="https://williamlock.github.io/Mahjong-Sudoku-Site/assets/mahjong-sudoku-icon.png">
-  <meta name="twitter:card" content="summary">
+  <meta property="og:description" content="Classic single-solution Sudoku logic with Chinese Mahjong-inspired tile suits.">
+  <meta property="og:image" content="https://williamlock.github.io/Mahjong-Sudoku-Site/assets/mahjong-sudoku-social.png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="Mahjong Sudoku Classic 麻将数独">
   <meta name="twitter:description" content="Classic Sudoku logic with Mahjong-inspired tile suits.">
-  <meta name="twitter:image" content="https://williamlock.github.io/Mahjong-Sudoku-Site/assets/mahjong-sudoku-icon.png">
+  <meta name="twitter:image" content="https://williamlock.github.io/Mahjong-Sudoku-Site/assets/mahjong-sudoku-social.png">
   <style>
     :root {
       color-scheme: light;
@@ -101,6 +103,24 @@
       color: var(--jade);
     }
 
+    .content {
+      display: grid;
+      gap: 18px;
+      padding-top: 8px;
+    }
+
+    .panel {
+      padding: 22px;
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      background: rgba(255, 255, 255, 0.62);
+    }
+
+    .panel h2 {
+      margin: 0 0 8px;
+      letter-spacing: 0;
+    }
+
     .actions {
       display: flex;
       flex-wrap: wrap;
@@ -151,8 +171,8 @@
         <img class="icon" src="assets/mahjong-sudoku-icon.png" alt="Mahjong Sudoku app icon">
         <h1 id="title">Mahjong Sudoku <span class="han">麻将数独</span></h1>
         <p>
-          A calm puzzle game that replaces Sudoku numbers with Mahjong-inspired tile suits.
-          Choose dots, bamboo, or characters, then solve each row, column, and 3x3 area with classic Sudoku logic.
+          A puzzle game made by a Sudoku fan who wanted to combine single-solution Sudoku logic
+          with the visual identity of Chinese Mahjong tiles.
         </p>
       </div>
       <div class="tiles" aria-label="Mahjong tile suits">
@@ -166,9 +186,30 @@
       <a class="button" href="https://apps.apple.com/us/app/mahjong-sudoku-classic-%E9%BA%BB%E5%B0%86%E6%95%B0%E7%8B%AC/id6775403580">Free Classic Edition</a>
       <a class="button secondary" href="story.html">Founder Story</a>
       <a class="button secondary" href="share-kit.html">Share Kit</a>
+      <a class="button secondary" href="rednote.html">Rednote Post</a>
+      <a class="button secondary" href="product-hunt-draft.md">Product Hunt Draft</a>
       <a class="button" href="support.html">Support</a>
       <a class="button secondary" href="privacy.html">Privacy Policy</a>
     </div>
+
+    <section class="content" aria-label="About Mahjong Sudoku Classic">
+      <div class="panel">
+        <h2>Classic rules, different visual challenge</h2>
+        <p>
+          You still solve each row, column, and 3x3 area with one of each value from 1 to 9.
+          The difference is that the board can use Mahjong-style suits like dots, bamboo, and characters,
+          turning a familiar number puzzle into a more visual pattern challenge.
+        </p>
+      </div>
+
+      <div class="panel">
+        <h2>Find it on the App Store</h2>
+        <p>
+          Search for Mahjong Sudoku Classic. Look for the light Sudoku board icon with a Mahjong tile and colored dots.
+          Developer: William Lock.
+        </p>
+      </div>
+    </section>
 
     <footer>
       Copyright 2026 William Lock. Mahjong Sudoku is available as an ad-supported classic edition and an ad-free paid edition.
