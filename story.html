@@ -1,0 +1,188 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>I made Sudoku feel like Mahjong - Mahjong Sudoku Classic</title>
+  <meta name="description" content="The story behind Mahjong Sudoku Classic, a calm puzzle game that keeps Sudoku logic but replaces numbers with Mahjong-inspired tile suits.">
+  <link rel="canonical" href="https://williamlock.github.io/Mahjong-Sudoku-Site/story.html">
+  <meta property="og:type" content="article">
+  <meta property="og:title" content="I made Sudoku feel like Mahjong">
+  <meta property="og:description" content="Mahjong Sudoku Classic keeps classic Sudoku logic, but changes the feeling with Chinese Mahjong tile suits.">
+  <meta property="og:image" content="https://williamlock.github.io/Mahjong-Sudoku-Site/assets/mahjong-sudoku-icon.png">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="I made Sudoku feel like Mahjong">
+  <meta name="twitter:description" content="A calm puzzle story for Mahjong Sudoku Classic.">
+  <meta name="twitter:image" content="https://williamlock.github.io/Mahjong-Sudoku-Site/assets/mahjong-sudoku-icon.png">
+  <style>
+    :root {
+      --ink: #202824;
+      --muted: #5f6b64;
+      --jade: #0f8b63;
+      --paper: #f8f6ec;
+      --mist: #eaf6ef;
+      --line: #d8dfd4;
+    }
+
+    * { box-sizing: border-box; }
+
+    body {
+      margin: 0;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      color: var(--ink);
+      background: linear-gradient(135deg, var(--mist), var(--paper));
+    }
+
+    main {
+      width: min(880px, calc(100% - 32px));
+      margin: 0 auto;
+      padding: 52px 0;
+    }
+
+    header {
+      display: grid;
+      gap: 18px;
+      margin-bottom: 32px;
+    }
+
+    .icon {
+      width: 112px;
+      height: 112px;
+      border-radius: 24px;
+      box-shadow: 0 12px 28px rgba(54, 68, 56, 0.16);
+    }
+
+    h1 {
+      max-width: 760px;
+      margin: 0;
+      font-size: clamp(2.3rem, 7vw, 4.8rem);
+      line-height: 0.98;
+      letter-spacing: 0;
+    }
+
+    h2 {
+      margin: 34px 0 10px;
+      letter-spacing: 0;
+    }
+
+    p, li {
+      color: var(--muted);
+      font-size: 1.08rem;
+      line-height: 1.68;
+    }
+
+    p { margin: 0 0 14px; }
+    ul { margin: 0 0 18px; padding-left: 22px; }
+    li { margin: 6px 0; }
+
+    a {
+      color: var(--jade);
+      font-weight: 700;
+      text-decoration: none;
+    }
+
+    .actions {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 12px;
+      margin-top: 8px;
+    }
+
+    .button {
+      display: inline-flex;
+      align-items: center;
+      min-height: 44px;
+      padding: 0 18px;
+      border-radius: 999px;
+      background: var(--jade);
+      color: white;
+      box-shadow: 0 8px 18px rgba(15, 139, 99, 0.2);
+    }
+
+    .secondary {
+      background: rgba(255, 255, 255, 0.66);
+      color: var(--ink);
+      border: 1px solid var(--line);
+      box-shadow: none;
+    }
+
+    .tile-board {
+      display: grid;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      gap: 10px;
+      max-width: 360px;
+      margin: 26px 0;
+    }
+
+    .tile {
+      min-height: 94px;
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      background: rgba(255, 252, 242, 0.9);
+      box-shadow: 0 8px 18px rgba(54, 68, 56, 0.12);
+      display: grid;
+      place-items: center;
+      font-family: "Kaiti SC", "STKaiti", "KaiTi", serif;
+      font-size: 2.6rem;
+      color: var(--jade);
+    }
+
+    .note {
+      margin-top: 28px;
+      padding: 18px;
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      background: rgba(255, 255, 255, 0.68);
+      font-weight: 700;
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <header>
+      <img class="icon" src="assets/mahjong-sudoku-icon.png" alt="Mahjong Sudoku Classic app icon">
+      <h1>I made Sudoku feel like Mahjong</h1>
+      <p>Mahjong Sudoku Classic is a calm puzzle game built around a small idea: keep the clean logic of Sudoku, but change the feeling by replacing numbers with Mahjong-inspired tile suits.</p>
+      <div class="actions">
+        <a class="button" href="https://apps.apple.com/us/app/mahjong-sudoku-classic-%E9%BA%BB%E5%B0%86%E6%95%B0%E7%8B%AC/id6775403580">Free Classic Edition</a>
+        <a class="button secondary" href="index.html">Product Home</a>
+        <a class="button secondary" href="share-kit.html">Share Kit</a>
+      </div>
+    </header>
+
+    <article>
+      <h2>The idea</h2>
+      <p>Sudoku is already one of the clearest puzzle formats: every row, column, and 3x3 area needs one of each symbol. Most versions use numbers because numbers are universal and easy to scan.</p>
+      <p>I wanted to keep that logic, but make the board feel a little warmer and more cultural. Mahjong tiles have a shape, rhythm, and visual personality that numbers do not have. They also naturally come in suits, which makes them a good fit for a puzzle that is about patterns.</p>
+
+      <div class="tile-board" aria-label="Mahjong tile suits">
+        <div class="tile">筒</div>
+        <div class="tile">索</div>
+        <div class="tile">萬</div>
+        <div class="tile">一</div>
+        <div class="tile">五</div>
+        <div class="tile">九</div>
+      </div>
+
+      <h2>How it plays</h2>
+      <p>The rules are still classic Sudoku. You solve each row, column, and 3x3 area using one of each tile from 1 to 9. The difference is the visual language: instead of staring at a plain number grid, you can choose Mahjong-style suits such as dots, bamboo, or characters.</p>
+      <p>That makes the puzzle familiar enough for Sudoku players, but different enough to feel fresh.</p>
+
+      <h2>Why I built it</h2>
+      <p>I like small games that can be understood quickly and played quietly. Mahjong Sudoku Classic is not trying to be noisy or complicated. It is meant to be a calm puzzle that you can open for a few minutes, solve at your own pace, and close without any account or heavy setup.</p>
+      <p>It also became a small bridge between two puzzle traditions: the strict logic of Sudoku and the tile identity of Mahjong.</p>
+
+      <h2>What I want feedback on</h2>
+      <p>I am especially interested in feedback from puzzle players:</p>
+      <ul>
+        <li>Do Mahjong-style symbols make Sudoku more enjoyable, or harder to scan?</li>
+        <li>Which tile suit feels easiest to play: dots, bamboo, or characters?</li>
+        <li>Should future versions include more visual themes or stay very minimal?</li>
+        <li>Would you prefer daily puzzles, difficulty levels, or a calmer free-play mode?</li>
+      </ul>
+
+      <p class="note">Mahjong Sudoku Classic is available now as a free, ad-supported edition on the App Store.</p>
+    </article>
+  </main>
+</body>
+</html>

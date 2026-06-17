@@ -5,6 +5,14 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Mahjong Sudoku 麻将数独</title>
   <meta name="description" content="Mahjong Sudoku blends classic Sudoku logic with Chinese Mahjong tile suits.">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Mahjong Sudoku Classic 麻将数独">
+  <meta property="og:description" content="A calm Sudoku puzzle game that replaces numbers with Mahjong-inspired tile suits.">
+  <meta property="og:image" content="https://williamlock.github.io/Mahjong-Sudoku-Site/assets/mahjong-sudoku-icon.png">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Mahjong Sudoku Classic 麻将数独">
+  <meta name="twitter:description" content="Classic Sudoku logic with Mahjong-inspired tile suits.">
+  <meta name="twitter:image" content="https://williamlock.github.io/Mahjong-Sudoku-Site/assets/mahjong-sudoku-icon.png">
   <style>
     :root {
       color-scheme: light;
@@ -41,6 +49,13 @@
       display: grid;
       gap: 24px;
       align-items: center;
+    }
+
+    .icon {
+      width: 128px;
+      height: 128px;
+      border-radius: 26px;
+      box-shadow: 0 12px 28px rgba(54, 68, 56, 0.16);
     }
 
     h1 {
@@ -133,6 +148,7 @@
   <main>
     <section class="hero" aria-labelledby="title">
       <div>
+        <img class="icon" src="assets/mahjong-sudoku-icon.png" alt="Mahjong Sudoku app icon">
         <h1 id="title">Mahjong Sudoku <span class="han">麻将数独</span></h1>
         <p>
           A calm puzzle game that replaces Sudoku numbers with Mahjong-inspired tile suits.
@@ -147,6 +163,9 @@
     </section>
 
     <div class="actions" aria-label="Links">
+      <a class="button" href="https://apps.apple.com/us/app/mahjong-sudoku-classic-%E9%BA%BB%E5%B0%86%E6%95%B0%E7%8B%AC/id6775403580">Free Classic Edition</a>
+      <a class="button secondary" href="story.html">Founder Story</a>
+      <a class="button secondary" href="share-kit.html">Share Kit</a>
       <a class="button" href="support.html">Support</a>
       <a class="button secondary" href="privacy.html">Privacy Policy</a>
     </div>
