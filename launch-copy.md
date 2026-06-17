@@ -12,6 +12,12 @@ https://williamlock.github.io/Mahjong-Sudoku-Site/story.html
 Share kit:
 https://williamlock.github.io/Mahjong-Sudoku-Site/share-kit.html
 
+Rednote post:
+https://williamlock.github.io/Mahjong-Sudoku-Site/rednote.html
+
+Rednote image:
+https://williamlock.github.io/Mahjong-Sudoku-Site/assets/mahjong-sudoku-rednote-card.png
+
 ## Positioning
 
 Mahjong Sudoku Classic is a puzzle game made by a Sudoku fan who wanted to combine single-solution Sudoku logic with the visual identity of Chinese Mahjong tiles.
