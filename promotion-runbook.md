@@ -60,6 +60,9 @@ Ask for feedback:
 Search clue:
 App Store 搜索 Mahjong Sudoku Classic。认准浅色数独棋盘图标，中间有一张麻将牌，上面有彩色圆点。开发者是 William Lock。
 
+QR code:
+Do not use QR codes in the Rednote image or post. Keep the post safer and simpler by asking users to search the App Store and recognize the icon.
+
 ## Product Hunt
 
 Use:

@@ -118,3 +118,4 @@ App Store 搜索：Mahjong Sudoku Classic
 - Use the free Classic Edition link when a direct link is allowed.
 - For Reddit, avoid reposting from a new account too aggressively.
 - For Rednote, use the Chinese title and focus on the Mahjong/Sudoku fusion.
+- Do not use QR codes on Rednote; use App Store search name, icon clue, and developer name instead.
