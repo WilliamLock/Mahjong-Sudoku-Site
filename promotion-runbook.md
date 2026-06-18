@@ -86,13 +86,13 @@ How do you decide when a puzzle variation is meaningful enough to become its own
 
 ## Reddit
 
-Do not post immediately from a new account if the previous Reddit post was filtered.
+Do not post Mahjong Sudoku immediately from the new account. The earlier Turbo SSHuttle post from u/LockStudio was filtered by Reddit, so use Reddit slowly and avoid link-heavy launch posts for now.
 
 Later, use a soft feedback title:
 
 Feedback wanted: Sudoku with Mahjong tile symbols
 
-Avoid multiple links. Use either the founder story or the App Store link, not both.
+Avoid multiple links. Use either the founder story or the App Store link, not both. It is better to start by commenting naturally in puzzle, Sudoku, Mac, or maker discussions before posting another product thread.
 
 ## Share Assets
 
