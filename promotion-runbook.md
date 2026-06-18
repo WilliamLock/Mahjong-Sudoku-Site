@@ -21,6 +21,9 @@ https://williamlock.github.io/Mahjong-Sudoku-Site/story.html
 Share kit:
 https://williamlock.github.io/Mahjong-Sudoku-Site/share-kit.html
 
+Launch day runbook:
+https://williamlock.github.io/Mahjong-Sudoku-Site/launch-day-runbook.md
+
 Product Hunt draft:
 https://williamlock.github.io/Mahjong-Sudoku-Site/product-hunt-draft.md
 
@@ -85,7 +88,7 @@ Ask:
 Does the tile visual language make the puzzle feel fresher, or do numbers remain easier to solve?
 
 Timing:
-Do not launch on the same day as Turbo SSHuttle. Pick a separate weekday and promote manually between 8:00am and 10:00am PT.
+Do not launch on the same day as Turbo SSHuttle. Recommended separate launch date: Tuesday, June 23, 2026, with manual promotion between 8:00am and 10:00am PT.
 
 ## Indie Hackers
 

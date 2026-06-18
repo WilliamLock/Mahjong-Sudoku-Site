@@ -21,6 +21,9 @@ https://www.producthunt.com/products/mahjong-sudoku-classic?launch=mahjong-sudok
 Current status:
 Draft created on Product Hunt. Do not launch on the same day as Turbo SSHuttle.
 
+Launch day runbook:
+https://williamlock.github.io/Mahjong-Sudoku-Site/launch-day-runbook.md
+
 ## Short Description
 
 Mahjong Sudoku Classic is a calm puzzle game that keeps classic single-solution Sudoku logic, but replaces the usual 1-9 number grid with Chinese Mahjong-inspired tile suits.
@@ -84,4 +87,4 @@ William Lock
 Use Mahjong Sudoku after the Turbo SSHuttle launch activity settles. Do not launch both products on Product Hunt on the same day.
 
 Recommended window:
-Pick a separate weekday morning, then promote between 8:00am and 10:00am PT.
+Tuesday, June 23, 2026 is the recommended separate launch date. Promote manually between 8:00am and 10:00am PT.
