@@ -24,6 +24,9 @@ https://williamlock.github.io/Mahjong-Sudoku-Site/share-kit.html
 Product Hunt draft:
 https://williamlock.github.io/Mahjong-Sudoku-Site/product-hunt-draft.md
 
+Product Hunt created draft:
+https://www.producthunt.com/products/mahjong-sudoku-classic?launch=mahjong-sudoku-classic
+
 Rednote post:
 https://williamlock.github.io/Mahjong-Sudoku-Site/rednote.html
 
@@ -65,8 +68,14 @@ Do not use QR codes in the Rednote image or post. Keep the post safer and simple
 
 ## Product Hunt
 
+Status:
+Draft created on Product Hunt. Keep it as a draft until the Turbo SSHuttle launch activity settles.
+
 Use:
 https://williamlock.github.io/Mahjong-Sudoku-Site/product-hunt-draft.md
+
+Draft URL:
+https://www.producthunt.com/products/mahjong-sudoku-classic?launch=mahjong-sudoku-classic
 
 Frame it as a simple puzzle experiment:
 
@@ -74,6 +83,9 @@ Classic single-solution Sudoku, but with Mahjong-inspired tile suits instead of 
 
 Ask:
 Does the tile visual language make the puzzle feel fresher, or do numbers remain easier to solve?
+
+Timing:
+Do not launch on the same day as Turbo SSHuttle. Pick a separate weekday and promote manually between 8:00am and 10:00am PT.
 
 ## Indie Hackers
 

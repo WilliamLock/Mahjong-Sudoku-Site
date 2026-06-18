@@ -15,6 +15,12 @@ https://apps.apple.com/us/app/mahjong-sudoku-classic-%E9%BA%BB%E5%B0%86%E6%95%B0
 Founder story:
 https://williamlock.github.io/Mahjong-Sudoku-Site/story.html
 
+Product Hunt draft:
+https://www.producthunt.com/products/mahjong-sudoku-classic?launch=mahjong-sudoku-classic
+
+Current status:
+Draft created on Product Hunt. Do not launch on the same day as Turbo SSHuttle.
+
 ## Short Description
 
 Mahjong Sudoku Classic is a calm puzzle game that keeps classic single-solution Sudoku logic, but replaces the usual 1-9 number grid with Chinese Mahjong-inspired tile suits.
