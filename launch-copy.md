@@ -15,8 +15,14 @@ https://williamlock.github.io/Mahjong-Sudoku-Site/share-kit.html
 Product Hunt draft:
 https://williamlock.github.io/Mahjong-Sudoku-Site/product-hunt-draft.md
 
+Product Hunt created draft:
+https://www.producthunt.com/products/mahjong-sudoku-classic?launch=mahjong-sudoku-classic
+
 Promotion runbook:
 https://williamlock.github.io/Mahjong-Sudoku-Site/promotion-runbook.md
+
+Launch day runbook:
+https://williamlock.github.io/Mahjong-Sudoku-Site/launch-day-runbook.md
 
 Rednote post:
 https://williamlock.github.io/Mahjong-Sudoku-Site/rednote.html
@@ -37,6 +43,22 @@ Mahjong Sudoku Classic is a puzzle game made by a Sudoku fan who wanted to combi
 
 It is for players who like Sudoku, Mahjong, pattern recognition, quiet puzzle games, and brainy logic challenges.
 
+## Product Hunt Timing
+
+Current status:
+Draft created on Product Hunt.
+
+Recommended separate launch date:
+Tuesday, June 23, 2026
+
+Recommended Product Hunt launch time:
+12:01 AM PT
+
+Best manual promotion window:
+8:00 AM-10:00 AM PT
+
+Do not launch on the same day as Turbo SSHuttle. Give each product its own attention window.
+
 ## Short English Post
 
 I made Mahjong Sudoku Classic because I’m a Sudoku fan, and I wanted to see what would happen if the usual 1-9 grid became Mahjong tiles.
@@ -55,6 +77,8 @@ William Lock
 I would love feedback from puzzle players: do Mahjong-style symbols make Sudoku more interesting, or do numbers still feel easier to solve?
 
 ## Reddit / Developer Forum Post
+
+Do not post this immediately on Reddit. The earlier Turbo SSHuttle post from u/LockStudio was filtered, so use this only later where self-promotion is clearly allowed.
 
 I built Mahjong Sudoku Classic because I’m a Sudoku fan, and I wanted to combine single-solution Sudoku logic with Chinese Mahjong tile visuals.
 
@@ -81,6 +105,19 @@ Feedback from puzzle players would be helpful: do Mahjong symbols make Sudoku mo
 ## Product Hunt / Indie Hackers Comment
 
 I am experimenting with a puzzle idea from my own Sudoku habit: classic single-solution Sudoku rules, but with Chinese Mahjong-inspired tile suits instead of normal digits. I wanted to see whether this makes the board more visual and interesting for both Sudoku players and Mahjong fans.
+
+## Product Hunt Launch Day Post
+
+Mahjong Sudoku Classic is live on Product Hunt.
+
+I made it because I’m a Sudoku fan, and I wanted to see what would happen if the usual 1-9 grid became Mahjong-style tile suits.
+
+The rules are still classic Sudoku: every row, column, and 3x3 area needs one of each value. The difference is the visual language.
+
+I’d love feedback from puzzle players: do Mahjong-style symbols make Sudoku feel fresher, or are numbers still easier to solve?
+
+Product Hunt:
+https://www.producthunt.com/products/mahjong-sudoku-classic?launch=mahjong-sudoku-classic
 
 ## Xiaohongshu / Rednote
 
@@ -116,6 +153,6 @@ App Store 搜索：Mahjong Sudoku Classic
 - Lead with the puzzle idea, not only the download link.
 - Ask for feedback from puzzle players.
 - Use the free Classic Edition link when a direct link is allowed.
-- For Reddit, avoid reposting from a new account too aggressively.
+- For Reddit, do not post immediately from the new account; build natural activity first.
 - For Rednote, use the Chinese title and focus on the Mahjong/Sudoku fusion.
 - Do not use QR codes on Rednote; use App Store search name, icon clue, and developer name instead.
